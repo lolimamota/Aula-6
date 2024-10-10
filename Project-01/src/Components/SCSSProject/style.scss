@@ -40,3 +40,13 @@
         }
     }
 }
+
+.MainOut{
+    border: solid white;
+    section{
+        height: 25vh;
+        border: solid yellowgreen;
+        display: flex;
+        justify-content: space-between;
+    }
+}
