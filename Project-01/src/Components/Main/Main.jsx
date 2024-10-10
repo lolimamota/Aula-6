@@ -4,7 +4,7 @@ import Run from './img/corrida.png';
 import Mamografia from './img/mamografia.png';
 import Alimentacao from './img/alimentacao.png';
 import Medico from './img/medico.png';
-import Not from './img/proibido';
+import Not from './img/proibido.png';
 
 function Main() {
   return (
@@ -23,7 +23,12 @@ function Main() {
         <p>Outubro Rosa promove a conscientização sobre o câncer de mama com corridas e caminhadas. Esses eventos incentivam a prevenção e o diagnóstico precoce, reunindo pessoas em apoio à causa. Participantes vestem rosa e percorrem distâncias variadas.</p>
     </section>
     <section>
-
+        <figure>
+            <img src={Mamografia} alt="" />
+            <img src={Alimentacao} alt="" />
+            <img src={Medico} alt="" />
+            <img src={Not} alt="" />
+        </figure>
     </section>
     </>
   )
