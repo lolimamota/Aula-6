@@ -2,7 +2,11 @@ import React from 'react'
 
 function Main() {
   return (
-    <div>Main</div>
+    <>
+    <section>Main rosa Claro</section>
+    <section>Main rosa escuro</section>
+    <section>Main rosa Claro</section>
+    </>
   )
 }
 
