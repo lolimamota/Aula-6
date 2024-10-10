@@ -6,9 +6,9 @@ import Alimentacao from './img/alimentacao.png';
 import Medico from './img/medico.png';
 import Not from './img/proibido.png';
 
-function Main() {
+export default function Main() {
   return (
-    <>
+    <main className='MainOut'>
     <section>
         <p>Outubro Rosa alerta sobre prevenção e diagnóstico precoce do câncer de mama. O mês de Outubro já é conhecido mundialmente como um mês marcado por ações afirmativas relacionadas à prevenção e diagnóstico precoce do câncer de mama. O movimento, conhecido como Outubro Rosa, é celebrado anualmente desde os anos 90.</p>
         <figure>
@@ -30,8 +30,6 @@ function Main() {
             <img src={Not} alt="" />
         </figure>
     </section>
-    </>
+    </main>
   )
 }
-
-export default Main
