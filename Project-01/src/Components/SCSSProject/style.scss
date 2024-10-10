@@ -6,4 +6,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", serif;
+    background-color: #FF69B4;
+    list-style: none;
+}
+
+.HeaderOut{
+    border: solid green;
+    display: flex;
+    figure{
+        display: flex;
+        border: solid yellow;
+    }
+    ul{
+        display: flex;
+        border: solid
+    }
 }

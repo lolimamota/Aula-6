@@ -3,7 +3,7 @@ import Logo from './img/Logo CM.png'
 
 export default function Header() {
   return (
-    <header>
+    <header className='HeaderOut'>
       <figure>
         <img src={Logo} alt="Logo com uma pessoa com um laço rosa frente ao corpo indicando o outubro rosa, mês de prevenção ao câncer de mama" />
         <h1>Outubro Rosa</h1>
