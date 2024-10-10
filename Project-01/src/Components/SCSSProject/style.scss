@@ -49,4 +49,30 @@
         display: flex;
         justify-content: space-between;
     }
+    .Fig01{
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 25vw;
+        }
+    } 
+    .Fig02{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 40vh;
+        }
+    } 
+    .Fig03{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        img{
+            width: 20vh;
+        }
+    }
 }
