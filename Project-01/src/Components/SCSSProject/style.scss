@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,29 +10,33 @@
     list-style: none;
 }
 
-.HeaderOut{
+.HeaderOut {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 
-    figure{
+
+    figure {
         display: flex;
         width: 40%;
         justify-content: space-evenly;
         align-items: center;
-        img{
-            width: 10vw;
+
+        img {
+            width: 8vw;
         }
-        h1{
+
+        h1 {
             text-transform: uppercase;
             font-size: 1rem;
             color: white;
         }
     }
-    nav{
+
+    nav {
         width: 60%;
-        ul{
+
+        ul {
             display: flex;
             justify-content: space-evenly;
             text-transform: uppercase;
@@ -41,37 +45,57 @@
     }
 }
 
-.MainOut{
-    border: solid white;
-    section{
+.MainOut {
+    section {
         height: 25vh;
-        border: solid yellowgreen;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
-    .Fig01{
+
+    p{
+        width: 35%;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding: 1rem;
+    }
+
+    .ChngColor{
+        color: white;
+    }
+
+    .BgLight {
+        background-color: #FFD9EC;
+    }
+
+    .Fig01 {
         display: flex;
         align-items: center;
-        
-        img{
-            width: 25vw;
+        background-color: #FFD9EC;
+
+        img {
+            background-color: #FFD9EC;
+            width: 13vw;
         }
-    } 
-    .Fig02{
+    }
+
+    .Fig02 {
         display: flex;
         align-items: center;
 
-        img{
+        img {
             width: 40vh;
         }
-    } 
-    .Fig03{
+    }
+
+    .Fig03 {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        
-        img{
+        background-color: #FFD9EC;
+
+        img {
+            background-color: #FFD9EC;
             width: 20vh;
         }
     }
