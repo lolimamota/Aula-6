@@ -24,10 +24,10 @@ export default function Main() {
     </section>
     <section className='BgLight'>
         <figure className='Fig03'>
-            <img src={Mamografia} alt="" />
-            <img src={Alimentacao} alt="" />
-            <img src={Medico} alt="" />
-            <img src={Not} alt="" />
+            <img src={Mamografia} alt="Faça mamografia anual a partir dos 40 anos" />
+            <img src={Alimentacao} alt="Mantenha uma alimentação saudável" />
+            <img src={Medico} alt="Vá ao médico regularmente" />
+            <img src={Not} alt="Evite o consumo de bebida alcoolica e tabagismo" />
         </figure>
     </section>
     </main>
