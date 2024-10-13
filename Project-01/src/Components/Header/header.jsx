@@ -1,9 +1,6 @@
 import React from 'react'
 import Logo from './img/Logo CM.png'
 
-import SobreMain from '../Routes/SobreMain.jsx';
-import ConsienteMain from '../Routes/ConscienteMain.jsx';
-import DicasMain from '../Routes/DicasMain.jsx';
 
 export default function Header() {
   return (
