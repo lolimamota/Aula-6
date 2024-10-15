@@ -1,31 +1,19 @@
-import React from 'react'
-import Logo from './img/Logo CM.png'
+import React from 'react';
+import Logo from './img/Logo CM.png';
 
 
 export default function Header() {
   return (
     <header className='HeaderOut'>
-        <figure>
+      <figure>
         <img src={Logo} alt="Logo com uma pessoa com um laço rosa frente ao corpo indicando o outubro rosa, mês de prevenção ao câncer de mama" />
         <h1>Outubro Rosa</h1>
-        </figure>
+      </figure>
       <nav>
         <ul>
-          <li>
-            <a href='../Routes/SobreMain.jsx' target='_blank'>
-            Sobre
-            </a>
-          </li>
-          <li>
-            <a href='../Routes/ConscienteMain.jsx' target='_blank'>
-            Conscientização
-            </a>
-          </li>
-          <li>
-            <a href='../Routes/DicasMain.jsx' target='_blank'>
-            Dicas
-            </a>
-          </li>
+          <li>Sobre</li>
+          <li>Conscientização</li>
+          <li>Dicas</li>
         </ul>
       </nav>
     </header>
